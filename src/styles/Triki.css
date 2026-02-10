@@ -14,3 +14,14 @@
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
 }
+
+.game {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.status {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
